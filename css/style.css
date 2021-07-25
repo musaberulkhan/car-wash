@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0!important;
+    padding: 0!important;
+    overflow-x: hidden;
+}
+
+header, section{
+    overflow: hidden;
+}
+
+:root{
+    --light-black:#2e2c2caf;
+    --light-grey: #f0f0f0;
+}
+
+header{
+    background: #1c8dd4;
+    background-image: linear-gradient(to left, #1c8dd4, #8cd2fd);
+    min-height: 100vh;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 1em;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+
+.nav-item a{
+    color: whitesmoke;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 0.9em;
+}
+
+header .navbar-brand{
+    padding-left: 8rem;
+    font-size: 30px;
+}
+
+header .navbar-brand:hover{
+    color: black;
+}
+
+header .nav-link:hover{
+    color: black;
+}
+
+
+/*Header Contents*/
+
+header .row{
+    
+}
+
+header .row .col-md-5{
+    padding: 15vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;    
+}
+
+header .row .col-md-5 img{
+    width: 90%;
+}
+
+header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1{
+    font-size: 7.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+/***************************************************************************************************************************/
+/*                                        Section 1                       */
+.section1{
+    padding: 20vmin 0;
+    
+}
+
+.section1 .row .col-md-6 .about img{
+    opacity: 0.8;
+    width: 90%;
+    border-radius: 0.2em;
+    margin-bottom: 30px;
+}
+
+.section1 .row .col-md-6:last-child{
+    position: relative;
+}
+
+.section1 .row .col-md-6 .about-text{    
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+/***************************************************************************************************************************/
+/*                                        Section 2                     */
+.experience{
+    width: 100%;
+    height: 55vmin;
+    background-image: url("../assets/experience.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.experience .content{
+    background:rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    padding-top: 15vmin;
+}
+
+.experience .content > h1{
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.experience .content > p{
+    font-size: 2vmin;
+    color: whitesmoke;
+}
+
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 15rem;
+    height: 11rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.numbers{
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1{
+    font-size: 4rem;
+    color: tomato;
+}
+
+.numbers .rect p{
+    font-weight: 700;
+}
+
+
+.services{
+    margin-top: 8vmin;
+}
+
+.services h1{
+    font-size: 4rem;
+}
+
+.services > p{
+    font-weight: 600;
+}
+
+
+.services .card{
+    margin: 10px;
+    background:#f0f0f0;
+    padding: 10px!important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0, 0, 0.2);
+}
+
+
+
+
+/***************************************************************************************************************************/
+/*                                        Section 3                     */
+
+.section3{         
+    background: #f1ffd4;
+    margin-top: 80px;
+    position: relative;
+}
+
+.section3 .callnow-image img{
+    width: 50%;
+    height: 50%;
+    padding: 20px 10px;
+}
+
+.section3 .callnow-text{    
+    margin: auto;
+    text-align: left;
+    padding: 25px 40px;
+}
+
+.section3 .callnow-text h3{
+    color: rgb(161, 0, 0);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.section3 .callnow-text button{
+    background-color: rgb(43, 78, 22);
+    font-weight: 700;
+    padding: 5px 25px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.section3 .callnow-text button:hover{
+    background-color: rgb(193, 253, 159);
+    color: black;
+}
+
+
+
+/***************************************************************************************************************************/
+/*                                        Section 4                         */
+
+.section4 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.section4 h1{
+    font-size: 4rem;
+}
+
+
+
+.section4 .custom-card-title{
+    background-color: #2b2b2b;
+    padding-top: 20px;
+    padding-bottom: 5px!important;
+    color: #dbdbdb;
+}
+
+.section4 .custom-card{
+    margin-top: 15px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0, 0, 0.2);
+    transition: transform .3s;
+}
+
+.section4 .custom-card:hover{
+    transform: scale(1.05)
+}
+
+.section4 .custom-card ul{
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+
+    list-style: none;
+    text-align: center;    
+}
+
+.section4 .custom-card ul li{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.section4 .custom-card ul li:last-child{
+    border-bottom: 0px solid #e6e6e6;
+}
+
+.section4 .custom-card .price{
+    background-color: #3f3f3f;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 5px!important;
+    color: #ffffff;
+}
+
+.section4 .custom-card strike{
+    color: rgb(255, 79, 79);
+    font-weight: 400;
+}
+
+
+
+
+/***************************************************************************************************************************/
+/*                                        Section 5                                             */
+
+.section5{
+    margin-top: 80px;
+}
+
+.section5 h1{
+    font-size: 3rem;
+}
+
+.section5 .card{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0, 0, 0.2);
+}
+
+.section5 .card .card-body p{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #272727;
+    
+}
+
+
+footer .footer-main{
+    padding: 30px 40px;
+}
+
+footer h1{
+    color: var(--light-grey);
+}
+
+footer .copyright{
+    color: whitesmoke;
+    padding: 10px;
+}
+
+footer .copyright span{
+    color: tomato;
+}
+
+footer .footer-section2 p{
+    color: white;
+}
+
+
+footer .footer-section2 form input{
+    width: 70%;
+    padding: 3px 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+
+footer .footer-section2 form span i{
+    color: black;
+    background: whitesmoke;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+footer .footer-section3 i{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0px 3px;
+}
+
+
+@media(max-width:690px){ 
+    header .navbar-brand{
+        padding-left: 1rem;        
+    }
+}
+
+@media(max-width:480px){ 
+    header .navbar-brand{
+        padding-left: 0.5rem; 
+        font-size: 25px;       
+    }
+}
