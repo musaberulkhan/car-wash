@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
@@ -273,39 +274,34 @@ header .nav-link:hover{
 
 
 
-/***************************************************************************************************************************/
-/*                                        Section 4                         */
 
-.section4 {
+/*-----------------------------           Pricing      ---------------------------------*/
+
+.pricing-section{
     margin-top: 80px;
     margin-bottom: 20px;
     padding: 20px;
 }
 
-.section4 h1{
-    font-size: 4rem;
-}
 
-
-
-.section4 .custom-card-title{
+.pricing-section .custom-card-title{
     background-color: #2b2b2b;
     padding-top: 20px;
     padding-bottom: 5px!important;
     color: #dbdbdb;
 }
 
-.section4 .custom-card{
+.pricing-section .custom-card{
     margin-top: 15px;
     box-shadow: 0px 0px 15px 2px rgba(0,0, 0, 0.2);
     transition: transform .3s;
 }
 
-.section4 .custom-card:hover{
+.pricing-section .custom-card:hover{
     transform: scale(1.05)
 }
 
-.section4 .custom-card ul{
+.pricing-section .custom-card ul{
     padding-top: 30px;
     padding-left: 0;
     padding-right: 0;
@@ -315,15 +311,15 @@ header .nav-link:hover{
     text-align: center;    
 }
 
-.section4 .custom-card ul li{
+.pricing-section .custom-card ul li{
     border-bottom: 1px solid #e6e6e6;
 }
 
-.section4 .custom-card ul li:last-child{
+.pricing-section .custom-card ul li:last-child{
     border-bottom: 0px solid #e6e6e6;
 }
 
-.section4 .custom-card .price{
+.pricing-section .custom-card .price{
     background-color: #3f3f3f;
     padding-top: 10px;
     text-align: center;
@@ -331,7 +327,7 @@ header .nav-link:hover{
     color: #ffffff;
 }
 
-.section4 .custom-card strike{
+.pricing-section .custom-card strike{
     color: rgb(255, 79, 79);
     font-weight: 400;
 }
