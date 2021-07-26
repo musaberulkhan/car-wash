@@ -329,8 +329,7 @@ header .nav-link:hover{
 
 
 
-/***************************************************************************************************************************/
-/*                                        Section 5                                             */
+/*-----------------------------           Review      ---------------------------------*/
 
 .review-section{
     margin-top: 80px;
@@ -352,14 +351,13 @@ header .nav-link:hover{
 
 
 
-
-
+/********************************************************************************************
+                                            Responsive
+*********************************************************************************************/
 
 footer{
-    background-color: #272727;
-    
+    background-color: #272727;    
 }
-
 
 footer .footer-main{
     padding: 30px 40px;
@@ -382,30 +380,32 @@ footer .footer-section2 p{
     color: white;
 }
 
-
-footer .footer-section2 form input{
-    width: 70%;
-    padding: 3px 5px;
-    margin-top: 5px;
-    margin-bottom: 25px;
+footer .footer-section2 div input{    
+    padding: 3px 5px;  
+    border: none;  
+    margin-right: 7px;
+    border-radius: 3px;
 }
 
-
-footer .footer-section2 form span i{
-    color: black;
+footer .footer-section2 form div i{
+    color: black;    
+    font-size: 20px;
     background: whitesmoke;
-    padding: 8px;
+    padding: 5px 8px;
+    border-radius: 3px;
     cursor: pointer;
-}
-
+} 
 
 footer .footer-section3 i{
     font-size: 25px;
     cursor: pointer;
     padding: 0px 3px;
+    transition: all 0.3s ease;
 }
 
-
+footer .footer-section3 i:hover{
+    color: lightskyblue;
+}
 
 
 
@@ -418,7 +418,6 @@ footer .footer-section3 i{
 /* Large Device */
 @media only screen and (min-width:992px){
 }
-
 
 
 /* Medium Device */
