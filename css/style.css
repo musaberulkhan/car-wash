@@ -17,19 +17,25 @@ header, section{
     --light-grey: #f0f0f0;
 }
 
+
+
+/********************************************************************************************
+                                            Header
+*********************************************************************************************/
 header{
     background: #1c8dd4;
     background-image: linear-gradient(to left, #1c8dd4, #8cd2fd);
     min-height: 100vh;
 }
 
+/*-----------------------------           Navigation       ---------------------------------*/
+
 header a{
     text-decoration: none;
-    font-size: 1em;
+    font-size: 16px;
     color: whitesmoke;
     font-weight: 600;
 }
-
 
 .nav-item a{
     color: whitesmoke;
@@ -39,7 +45,7 @@ header a{
     display: none;
     position: absolute;
     background: white;
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -60,7 +66,7 @@ header a{
 }
 
 header .nav-item:last-child{
-    padding-right: 10.5em;
+    padding-right: 20px;
 }
 
 header .nav-item{
@@ -68,7 +74,7 @@ header .nav-item{
 }
 
 header .navbar-brand{
-    padding-left: 8rem;
+    padding-left: 20px;
     font-size: 30px;
 }
 
@@ -81,11 +87,7 @@ header .nav-link:hover{
 }
 
 
-/*Header Contents*/
-
-header .row{
-    
-}
+/*-----------------------------           Header Banner       ---------------------------------*/
 
 header .row .col-md-5{
     padding: 15vmin 1vmin;
@@ -421,6 +423,8 @@ footer .footer-section3 i{
 }
 
 
+/* 
+
 @media(max-width:690px){ 
     header .navbar-brand{
         padding-left: 1rem;        
@@ -432,4 +436,4 @@ footer .footer-section3 i{
         padding-left: 0.5rem; 
         font-size: 25px;       
     }
-}
+} */
