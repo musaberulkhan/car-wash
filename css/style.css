@@ -160,7 +160,7 @@ header .nav-link:hover{
 }
 .experience{
     width: 100%;
-    height: 55vmin;
+    height: 65vmin;
     background-image: url("../assets/experience.jpg");
     background-size: cover;
     position: relative;
@@ -170,8 +170,9 @@ header .nav-link:hover{
 .experience .content{
     background:rgba(0, 0, 0, 0.4);
     height: 100%;
-    width: 100%;
-    padding-top: 15vmin;
+    width: 100%;    
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .experience .content > h1{    
@@ -237,7 +238,7 @@ header .nav-link:hover{
 
 
 
-/*-----------------------------           Services      ---------------------------------*/
+/*-----------------------------           Support      ---------------------------------*/
 .support-section{         
     background: #f1ffd4;
     margin-top: 80px;    
@@ -461,6 +462,9 @@ footer .footer-section3 i{
         padding-left: 10px;  
         padding-right: 10px;  
     }
+    .experience{       
+        height: 68vmin;        
+    }   
 }
 
 /*Extra Small Device */
@@ -487,6 +491,8 @@ footer .footer-section3 i{
         padding-left: 10px;  
         padding-right: 10px;  
     }
-    
+    .experience{       
+        height: 85vmin;        
+    }      
     
 }
